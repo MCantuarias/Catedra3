@@ -1,0 +1,40 @@
+1.- (5 puntos) completar los métodos de las clases Alumno para poder obtener y modificar los atributos.
+2.- (5 puntos) completar los métodos de las clases Ramo para poder obtener y modificar los atributos.
+3.- (5 puntos) generar método toString en las clases Alumno y Ramo para obtener la información según la estructura de los csv correspondientes.
+4.- (10 puntos) dentro de la clase Data, generar los métodos y atributos para trabajar con un ArrayList de alumnos y ramos.
+5.- (10 puntos) dentro de la clase Data, generar los métodos necesarios para poder leer y guardar información de los csv proporcionados.
+6.- (10 puntos) dentro de la clase Data, generar los métodos necesarios para devolver información solicitada que tenga que ver con la información solicitada en otras partes de MVC.
+6.- (20 puntos) dentro de clase menú, generar los métodos necesarios para:
+    - poder imprimir lista de alumnos por consola
+    - poder imprimir lista de ramos por consola
+    - poder imprimir lista de ramos de un alumno específico por consola
+    - poder imprimir notas y promedio final de un alumno específico por ramo específico por consola
+    - generar método que entregue opciones numéricas para escoger alguna de las opciones antes mencionadas
+7.- (20 puntos) dentro de la clase controlador, generar métodos para poder comunicar las clases de Model y la clase Menu según lo solicitado por usuario.
+    - Método para obtener opciones desde Menu
+    - Método para enviar información a Menu
+    - Método para transformar ArrayList de tipo solicitado
+    - Método para pedir información a clase Data (por ejemplo promedio de alumno)
+8.- (5 puntos) dentro de la clase Main, generar los atributos necesarios para inicializar el programa y enviar la información correspondiente.
+
+*los string de direcciones de archivos deben enviarse desde el main a las clases correspondientes.
+
+*mapa de lógica:
+    Main solo se puede comunicar con Controller.
+    Controller se puede comunicar con Model y View.
+    Model y View no pueden comunicarse.
+
+*Recordar que la lógica de negocios y datos y crea y calcula dentro de data; controlador solicita y envía información solicitada; Menu obtiene la información que ingresa el usuario a través de consola y envía estas opciones a controlador.
+
+Puntaje total = 80 puntos.
+Puntaje para 4.0 = 48 puntos.
+
+Duración = 2 horas 30 minutos
+tiempo inicio = 14.15
+tiempo final = 16.45
+
+La respuesta se debe subir a plataforma, comprimida en un zip con todos los archivos necesarios para realizar la compilación.
+
+*Recordar que no se evalúa la compilación misma del programa, sino que se rige por el puntaje anterior.
+
+En caso de utilizar extensión que entregue código, se evaluara con un 1.
